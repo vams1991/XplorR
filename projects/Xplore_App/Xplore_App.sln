@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Xplore_App", "http://localhost:52845", "{A9607064-B25A-4B11-AB3B-F2C0B58F7239}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52845"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Xplore_App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52845\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52845"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Xplore_App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52845\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\Xplore_App\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE} = {477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}
+		{716FBEFF-56AC-4183-BF9F-8AB231FBA92E} = {716FBEFF-56AC-4183-BF9F-8AB231FBA92E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C5C0390-DD6D-46F4-BE27-58720A2163C2}"
+	ProjectSection(SolutionItems) = preProject
+		..\SolarEnergyService\SolarEnergyService.sln = ..\SolarEnergyService\SolarEnergyService.sln
+		..\StoreLocator\StoreLocator.sln = ..\StoreLocator\StoreLocator.sln
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SolarEnergyService", "http://localhost:54969", "{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54969"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergyService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54969\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54969"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergyService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54969\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\SolarEnergyService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StoreLocator", "http://localhost:56022", "{716FBEFF-56AC-4183-BF9F-8AB231FBA92E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56022"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\StoreLocator\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56022\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56022"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\StoreLocator\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56022\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\StoreLocator\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Population_Service", "..\Population_service\WcfService1\Population_Service.csproj", "{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectiveServices", "..\..\Elective Services\ElectiveServices.csproj", "{E698BEA7-5763-4065-9667-555B041DE786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9607064-B25A-4B11-AB3B-F2C0B58F7239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9607064-B25A-4B11-AB3B-F2C0B58F7239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9607064-B25A-4B11-AB3B-F2C0B58F7239}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9607064-B25A-4B11-AB3B-F2C0B58F7239}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{716FBEFF-56AC-4183-BF9F-8AB231FBA92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716FBEFF-56AC-4183-BF9F-8AB231FBA92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716FBEFF-56AC-4183-BF9F-8AB231FBA92E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{716FBEFF-56AC-4183-BF9F-8AB231FBA92E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477E3CA4-F651-4CE2-A6DB-50A90CDF6DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E698BEA7-5763-4065-9667-555B041DE786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E698BEA7-5763-4065-9667-555B041DE786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E698BEA7-5763-4065-9667-555B041DE786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E698BEA7-5763-4065-9667-555B041DE786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\bin\WcfService1.dll.config
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\bin\WcfService1.dll
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\bin\WcfService1.pdb
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\obj\Debug\WcfService1.dll
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\obj\Debug\WcfService1.pdb
+c:\users\vams1991\documents\visual studio 2013\Projects\Population_service\WcfService1\obj\Debug\Population_Service.csprojResolveAssemblyReference.cache
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\bin\WcfService1.dll.config
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\bin\WcfService1.dll
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\bin\WcfService1.pdb
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\obj\Debug\Population_Service.csprojResolveAssemblyReference.cache
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\obj\Debug\WcfService1.dll
+I:\DSOD_HW5_Application\DSOD_HW5_Application\projects\Population_service\WcfService1\obj\Debug\WcfService1.pdb

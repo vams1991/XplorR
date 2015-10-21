@@ -1,0 +1,6 @@
+1) The path to the application is DSOD_HW5_Application/projects/Xplore_APP
+2) The username and ASU ID typed in login page are saved as cookies and displayed in other pages as well.
+3) The last retreived data in all pages except login page is saved in cache. When you open a page and retreive data, go to other page and come back to the previous page
+   you can find the last retreived data retreived from cache.
+4) Five services have been used. SolarEnergy service, StoreLocator Service, Population Service, TwitterCount Service and TwitterTrending Service.
+   TwitterCount Service and TwitterTrending Service are restful services.

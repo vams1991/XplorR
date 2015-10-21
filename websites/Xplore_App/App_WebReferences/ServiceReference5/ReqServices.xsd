@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CrimeData" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CrimeData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CrimeData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AggravatedAssault" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Arson" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Burglary" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ForcibleRape" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LarcenyTheft" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MotorVehicleTheft" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MurderAndManslaughter" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PropertyCrime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Robbery" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ViolentCrime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CrimeData" nillable="true" type="tns:CrimeData" />
+  <xs:complexType name="WindData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="annualWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="aprWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="augWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="decWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="febWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="janWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="julWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="junWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="marWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mayWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="novWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="octWindSpeed" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sepWindSpeed" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WindData" nillable="true" type="tns:WindData" />
+</xs:schema>

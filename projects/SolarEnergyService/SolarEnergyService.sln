@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SolarEnergyService", "http://localhost:54969", "{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54969"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergyService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54969\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54969"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergyService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54969\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\SolarEnergyService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SolarEnergy_TryIt", "http://localhost:55385", "{24C08F16-DDA6-4699-8999-36981F663433}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55385"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergy_TryIt\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55385\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55385"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\SolarEnergy_TryIt\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55385\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\SolarEnergy_TryIt\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72CD950-C8F2-4EE5-BADB-77F74834C2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C08F16-DDA6-4699-8999-36981F663433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C08F16-DDA6-4699-8999-36981F663433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
